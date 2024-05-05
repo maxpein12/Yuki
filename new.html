@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="letter.css">
   </head>
   <body>
-    <audio id="myVideo" controls autoplay hidden src="./Taylor Swift - Enchanted (mp3cut.net).mp3"></audio>
+<!--     <audio id="myVideo" controls autoplay hidden src="./Taylor Swift - Enchanted (mp3cut.net).mp3"></audio> -->
+    <audio hidden autoplay id="myaudio">
+  <source src="./Taylor Swift - Enchanted (mp3cut.net).mp3">
+</audio>
     <section class="animation-box">
       <div class="first-text">Happy Monthsary My Love!</div>
       <div class="second-text">
@@ -23,8 +26,8 @@
     </section>
 
     <script>
-  let vid = document.getElementById("myVideo");
-vid.volume = 0.2;
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.2;
 </script>
   </body>
 </html>
