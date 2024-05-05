@@ -6,7 +6,7 @@ body {
   .animation-box {
     width: 75%;
     height: 27.5rem;
-    background-color: transparent;
+    background-color: #89cff0;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
